@@ -1,0 +1,42 @@
+*
+{
+  background: rgb(36, 36, 36);
+}
+
+header 
+{
+    color: #e57f00;
+    font-family: Cursive, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25;
+}
+
+.movie-container 
+{
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+    font-weight: 550;
+    color: rgb(104, 104, 104);
+
+  }
+  .movie-container table
+
+{
+ margin-top: 100px;
+ border-spacing: 1em;
+
+
+}
+.movie-container table tr{
+ 
+  transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+.movie-container table tr:hover
+{
+  color: #e57f00; 
+  cursor: pointer;
+  transform: scale(1.07);
+  
+}
